@@ -24,14 +24,14 @@ function Footer() {
           Doordarshan is our newsletter about all things travel, food and
           culture. Discover your next destination
         </p>
-        <div className="flex items-center border-2 rounded-lg py-2 md:shadow-sm">
+        <div className="flex items-center border-2 rounded-lg py-2 md:shadow-sm bg-white ">
           <input
             type="text"
             className="flex-grow pl-5 bg-transparent outline-none text-sm text-gray-600 placeholder-gray-400"
             placeholder="E-mail"
           />
         </div>
-        <button className="text-purple-500 bg-white px-10 py-4 shadow-md rounded-lg my-3 hover:shadow-xl active:scale-90 transition duration-150">
+        <button className="bg-red-400 text-white px-10 py-4 shadow-md rounded-lg my-3 hover:shadow-xl active:scale-90 transition duration-150">
         Sign-Up
         </button>
       </div>
