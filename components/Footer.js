@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 mt-4">
         <div className="max-w-7xl mx-auto sm:px-16 pb-6 grid grid-cols-1 md:grid-cols-3 px-16 text-xs text-gray-800">
           <div className="space-y-2 py-2 pr-10">
             <h5 className="font-bold pt-6">About</h5>
@@ -38,7 +38,9 @@ function Footer() {
         </div>
       </div>
 
-      <h1 className="text-xs p-2">Copyright - Boardless</h1>
+      <div className="absolute w-full text-center">
+        <h1 className="text-xs p-2">Copyright - Boardless</h1>
+      </div>
     </div>
   );
 }

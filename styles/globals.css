@@ -28,3 +28,9 @@ a {
     background: black;
   }
 }
+
+@layer components{
+  .filter {
+    @apply flex border rounded-full hover:shadow-lg active:scale-95 active:bg-gray-100 transition transform duration-100 ease-out cursor-pointer space-x-2 items-center justify-end px-3 py-1;
+  }
+}

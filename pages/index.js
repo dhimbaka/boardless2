@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import SmallCard from "../components/SmallCard";
@@ -22,7 +21,7 @@ export default function Home({exploreData,cardsData}) {
 
       <main className="max-w-7xl mx-auto px-8 sm:px-16">
         <section className="pt-4">
-          <h2 className="text-2xl font-bold pb-5">Explore Nearby</h2>
+          <h2 className="text-2xl font-bold pb-5">Popular Destinations</h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {exploreData.map((item)=>(
@@ -37,7 +36,7 @@ export default function Home({exploreData,cardsData}) {
         </section>
         
         <section>
-        <h2 className="text-2xl font-bold py-5">Live Anywhere</h2>
+        <h2 className="text-2xl font-bold pt-5">Guide Spotlight</h2>
         <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
           {cardsData.map((item)=>(
           <MediumCard 
